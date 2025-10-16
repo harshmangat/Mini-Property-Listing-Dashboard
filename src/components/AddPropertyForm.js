@@ -37,7 +37,7 @@ function AddPropertyForm({ onAdd }) {
   }
 
   return (
-    <form onSubmit={handleSubmit} style={{ marginTop: '30px' }}>
+    <form className="add-property-form" onSubmit={handleSubmit} >
       <h3>Add Property</h3>
       <input
         name="name"
