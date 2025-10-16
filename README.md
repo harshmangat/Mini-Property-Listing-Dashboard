@@ -1,6 +1,6 @@
 # Mini Property Listing Dashboard
 
-Welcome to the **Mini Property Listing Dashboard**, a modern React application showcasing property listings with dynamic filtering, searching, and an easy-to-use interface for adding new properties.
+Welcome to the **Mini Property Listing Dashboard**, a modern React application showcasing property listings with dynamic filtering, searching, and an easy to use interface for adding new properties.
 
 ---
 
