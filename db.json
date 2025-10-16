@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "name": "Plot",
+      "type": "Land",
+      "location": "Pune",
+      "price": 250000,
+      "description": "A large plot of land available for development."
+    },
+    {
+      "id": "2",
+      "name": "Retail Store",
+      "type": "Commercial",
+      "location": "Hyderabad",
+      "price": 110000,
+      "description": "A commercial retail space in city center."
+    },
+    {
+      "id": "544e",
+      "name": "Harsh Enclave",
+      "type": "Flats",
+      "location": "Najibabad",
+      "price": 2500000,
+      "description": "A New Home waiting for you in the city center."
+    }
+  ]
+}

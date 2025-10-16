@@ -1,10 +1,15 @@
+$primary-color: #4A90E2;
+$border-color: #ccc;
+$bg-light: #f9f9f9;
+$font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 body,
 html,
 #root {
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
+  font-family: $font-stack;
+  background-color: $bg-light;
 }
 
 .App {
@@ -14,26 +19,26 @@ html,
 }
 
 h2 {
-  color: #4A90E2;
+  color: $primary-color;
   margin-bottom: 20px;
 }
 
 input,
 select,
 textarea {
-  border: 1px solid #ccc;
+  border: 1px solid $border-color;
   border-radius: 4px;
   font-size: 1rem;
   outline: none;
   transition: border-color 0.3s ease;
-}
-input:focus,
-select:focus,
-textarea:focus {
-  border-color: #4A90E2;
+
+  &:focus {
+    border-color: $primary-color;
+  }
 }
 
-input[type=text],
+
+input[type='text'],
 select,
 textarea {
   width: 300px;
@@ -49,7 +54,7 @@ textarea {
 }
 
 button {
-  background-color: #4A90E2;
+  background-color: $primary-color;
   border: none;
   border-radius: 4px;
   color: white;
@@ -57,9 +62,10 @@ button {
   font-weight: 600;
   padding: 10px 15px;
   transition: background-color 0.3 ease;
-}
-button:hover {
-  background-color: rgb(34.3857142857, 117.3857142857, 214.6142857143);
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
 }
 
 .property-list {
@@ -70,28 +76,28 @@ button:hover {
 
 .property-card {
   background: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid $border-color;
   border-radius: 6px;
   padding: 20px;
   width: 250px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-.property-card h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.property-card p {
-  margin: 6px 0;
-  color: #555;
+
+  h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 6px 0;
+    color: #555;
+  }
+
 }
 
 .modal-overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,11 +113,10 @@ button:hover {
 
 .modal-close-btn {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 10px; right: 10px;
   background: transparent;
   border: none;
   font-size: 1.3rem;
   cursor: pointer;
   color: #999;
-}/*# sourceMappingURL=App.css.map */
+}
