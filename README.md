@@ -27,12 +27,38 @@ Welcome to the **Mini Property Listing Dashboard**, a modern React application s
 
 ## Getting Started
 
+
+
 ### Prerequisites
 
 Ensure you have:
 
 - Node.js (version 14 or higher)
 - npm (comes with Node.js)
+
+### Installation and Running Locally
+
+1. Clone the repository
+git clone https://github.com/harshmangat/Mini-Property-Listing-Dashboard
+
+cd your-repo-name
+
+
+2. Install dependencies for frontend and backend
+
+npm install
+
+
+3. Start the mock backend API server
+npm run start-server
+
+
+4. Open another terminal and start the React development server
+npm start
+
+
+5. Open your browser at `http://localhost:3000` to see the app live.
+
 
 ---
 

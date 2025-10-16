@@ -15,14 +15,14 @@ function PropertyList() {
   }, [])
 
   const fetchProperties = () => {
-    fetch('http://localhost:5000/properties')
+    fetch('https://mini-property-listing-dashboard.onrender.com/api/properties')
       .then(Response => Response.json())
       .then(data => setProperties(data))
       .catch(err => console.error('fetch error: ', err))
   };
 
   const addProperty = (property) => {
-    fetch('http://localhost:5000/properties', {
+    fetch('https://mini-property-listing-dashboard.onrender.com/api/properties', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(property)
