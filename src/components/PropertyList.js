@@ -66,7 +66,6 @@ function PropertyList() {
           <option value="">Filter by Type</option>
           <option value="Land">Land</option>
           <option value="Commercial">Commercial</option>
-          {/* more types... */}
         </select>
         <div>
           <button
