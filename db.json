@@ -17,12 +17,36 @@
       "description": "A commercial retail space in city center."
     },
     {
-      "id": "544e",
+      "id": "7e0b",
       "name": "Harsh Enclave",
       "type": "Flats",
       "location": "Najibabad",
-      "price": 2500000,
-      "description": "A New Home waiting for you in the city center."
+      "price": 25000000,
+      "description": "Your Dream Home"
+    },
+    {
+      "id": "3385",
+      "name": "Harsh Enclave",
+      "type": "Flats",
+      "location": "Najibabad",
+      "price": 13531321,
+      "description": "jjhkjkj"
+    },
+    {
+      "id": "073a",
+      "name": "hjjgjhghjgjh",
+      "type": "hbjhgjhg",
+      "location": "jkhkbk",
+      "price": 35434313,
+      "description": "jmbjhjhjhbhj"
+    },
+    {
+      "id": "cf93",
+      "name": "dsfds",
+      "type": "dfds",
+      "location": "sdfd",
+      "price": 22112,
+      "description": "dsfsdf"
     }
   ]
 }
