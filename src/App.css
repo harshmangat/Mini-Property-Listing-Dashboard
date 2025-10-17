@@ -153,4 +153,87 @@ button:hover {
   font-size: 1.3rem;
   cursor: pointer;
   color: #999;
+}
+
+.property-controls {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.property-controls > input,
+.property-controls > select {
+  height: 40px;
+  min-width: 280px;
+}
+
+.property-controls > .add-property-btn {
+  margin-left: auto;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: #4A90E2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.property-controls > .add-property-btn:hover {
+  background: #357abd;
+}
+
+.add-property-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.add-property-btn {
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 1.13rem;
+  background: #4A90E2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.add-property-btn:hover {
+  background: #357abd;
+}
+
+.add-property-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.add-property-modal-content {
+  position: relative;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: -38px;
+  right: 0;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0 8px;
 }/*# sourceMappingURL=App.css.map */
